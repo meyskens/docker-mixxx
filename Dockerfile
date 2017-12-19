@@ -5,6 +5,6 @@ RUN apt-get update && \
 
 RUN add-apt-repository ppa:mixxx/mixxx &&\
     apt-get update &&\
-    apt-get install mixxx pulseaudio
+    apt-get install -y mixxx pulseaudio
     
 CMD [ "mixxx" ]
